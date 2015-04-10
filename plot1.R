@@ -35,7 +35,7 @@ power
 # Plot 1
 png(filename = "plot1.png") ## Opening the PNG file device
 
-par(mfrow = c(1, 1)) # 1 x 1 plots
+par(mfrow = c(1, 1)) # 1 x 1 plots  
 
 with(power, hist(Global_active_power, col = "red",
                  main = "Global Active Power",
